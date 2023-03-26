@@ -1,0 +1,19 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-gray);
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+}
+
+.search-bar input {
+    background-color: transparent;
+    width: 30vw;
+    margin-left: 1rem;
+    color: var(--color-black)
+}
+
+.search-bar input::placeholder {
+    font-style: italic;
+}
